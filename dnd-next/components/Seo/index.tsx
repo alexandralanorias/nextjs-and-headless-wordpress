@@ -1,5 +1,7 @@
+'use client';
 import Head from "next/head";
-import { useRouter } from "next/router";
+// import { useRouter } from "next/router";
+import { usePathname, useSearchParams } from 'next/navigation'
 
 import faviconIco from "@/assets/favicons/favicon.ico";
 import appleTouchIcon from "@/assets/favicons/apple-touch-icon.png";
@@ -24,8 +26,14 @@ export const SEO = ({
   image = pageImage,
   type = "website",
 }: SEOProps) => {
-  const router = useRouter();
-  const url = `${ROOT_URL}/${router.asPath}`;
+  const pathname = usePathname()
+  const searchParams = useSearchParams()
+
+  const url = `${pathname}?${searchParams}`
+  console.log(url)
+
+  // const router = useRouter();
+  // url = `${ROOT_URL}/${router.asPath}`;
 
   return (
     <Head>
