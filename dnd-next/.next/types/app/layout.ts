@@ -1,4 +1,4 @@
-// File: C:\Users\Rodrigo\Documents\GitHub\nextjs-and-headless-wordpress\dnd-next\app\layout.tsx
+// File: D:\Desktop\dnd-next\nextjs-and-headless-wordpress\dnd-next\app\layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

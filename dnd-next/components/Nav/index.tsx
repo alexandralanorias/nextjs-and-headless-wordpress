@@ -9,13 +9,17 @@ export const Nav = () => {
             Home
           </Link>
           <Link href="#" className="px-4">
-            Blog
+            Transparency
           </Link>
           <Link href="#" className="px-4">
-            About
+            Procurement
           </Link>
           <Link href="#" className="px-4">
-            Contact
+            About Us
+          </Link>
+
+          <Link href="#" className="px-4">
+            Resources
           </Link>
         </div>
       </div>

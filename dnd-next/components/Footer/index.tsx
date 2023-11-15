@@ -4,7 +4,8 @@ export const Footer = () => {
   return (
     <footer className="container mx-auto">
       <div className="text-center border-t py-8">
-        <h3 className="text-xl">Important Links</h3>
+        <h3 className="text-xl">REPUBLIC OF THE PHILIPPINES</h3> <br></br>
+        <h6>All content is in the public domain unless otherwise stated.</h6>
         <div className="flex items-center justify-center my-4 underline">
           <Link href="https://dev.to/jeffsalive" className="px-4">
             Dev.to (Jeffrey)
@@ -19,7 +20,7 @@ export const Footer = () => {
             Website
           </Link>
         </div>
-        <small>Jeffrey &copy; {new Date().getFullYear()}</small>
+        <small>GOVPH &copy; {new Date().getFullYear()}</small>
       </div>
     </footer>
   );
